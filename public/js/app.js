@@ -1,5 +1,3 @@
-console.log("client side js code is loaded ")
-
 //calling fetch is javascript will kick off an asynchronous operation just like node did.
 fetch('http://puzzle.mead.io/puzzle').then((response)=>{
     response.json().then((data)=>{
